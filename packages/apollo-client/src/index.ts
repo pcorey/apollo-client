@@ -47,4 +47,7 @@ export { ApolloError } from './errors/ApolloError';
 export { defaultDataIdFromObject } from './ApolloClient';
 import ApolloClient from './ApolloClient';
 
+export { default as InMemoryCache } from './cache-inmemory/index';
+export { default as ApolloLink, Observable } from 'apollo-link-core';
+
 export default ApolloClient;

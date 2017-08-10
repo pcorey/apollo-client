@@ -14,7 +14,7 @@ import {
   isJsonValue,
   isIdValue,
   getStoreKeyName,
-} from '../';
+} from '../index';
 
 /**
  * The key which the cache id for a given value is stored in the result object. This key is private

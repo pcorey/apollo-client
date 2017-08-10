@@ -26,7 +26,7 @@ import {
   shouldInclude,
   storeKeyNameFromField,
   StoreObject,
-} from '../';
+} from '../index';
 
 export class WriteError extends Error {
   public type = 'WriteError';
